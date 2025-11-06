@@ -1,3 +1,26 @@
 #p1 {
     color: #ccccff;
 }
+
+p {
+    background-color: black;
+    color: white;
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#s1, #s2 {
+    color:blue
+}
+
+#s3 {
+    background-color: chartreuse;
+}
+
+#s5 {
+    background-color: chocolate;
+    color:brown;
+}
