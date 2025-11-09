@@ -1,0 +1,50 @@
+.color-palette {
+    box-shadow: 6px 6px 12px #989898;
+    text-align: center;
+    margin: 24px;
+    padding: 24px;
+}
+
+#p1-c1 {
+    background-color: #845ec2
+}
+
+#p1-c2 {
+    background-color: #9b89b3
+}
+
+#p1-c3 {
+    background-color: #fef6ff
+}
+
+#p1-c4 {
+    background-color: #fefedf;
+}
+
+#p1-c5 {
+    background-color: #4e8397
+}
+
+#p1-c6 {
+    background-color: #b16673
+}
+
+#p1-c7 {
+    background-color: #53875f
+}
+
+#p1-c8 {
+    background-color: #f59432
+}
+
+#p1-c9 {
+    background-color: #633d33
+}
+
+#p1-c10 {
+    background-color: #402e32
+}
+
+.color {
+    margin: 0px
+}
