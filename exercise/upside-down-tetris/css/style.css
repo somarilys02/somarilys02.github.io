@@ -1,0 +1,48 @@
+#container {
+    width: 500px;
+    min-height: 100vh;
+    background-color: bisque;
+    font-size: 0px;
+}
+
+.block {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background-color: purple;
+    border-width: 5px;
+    border-style: outset;
+    border-radius: 20%;
+    box-shadow:
+        2px 2px 2px 1px inset 
+        white
+}
+
+.blue {
+    background-color: blue;
+}
+
+.pink {
+    background-color: pink;
+    border-color: pink;
+}
+
+.yellow {
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.green {
+    background-color: green;
+    border-color: green;
+}
+
+.orange {
+    background-color: orange;
+    border-color: orange;
+}
+
+.purple {
+    background-color: purple;
+    border-color: purple;
+}
