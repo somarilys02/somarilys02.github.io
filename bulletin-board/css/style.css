@@ -1,0 +1,46 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it {
+    background-color: aqua;
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    font-family: sans-serif;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.post-it-image {
+    background-color: yellow;
+    display: inline-block;
+    width: 140px;
+    height: 245px;
+    font-family: sans-serif;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
+
+.post-it-list {
+    background-color: pink;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    font-family: sans-serif;
+    margin: 24px; 
+    padding: 24px;
+    vertical-align: top;
+}
