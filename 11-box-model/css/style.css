@@ -1,0 +1,22 @@
+div {
+    border: 2px solid firebrick;
+    margin: 25px 60px 120px 0px;
+    padding: 24px;
+    background-color: lavender;
+}
+
+a {
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    background-color: aquamarine;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 25px 10px;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
