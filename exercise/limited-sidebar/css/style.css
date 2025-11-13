@@ -1,0 +1,10 @@
+.chapter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#sidebar .edit {
+    color: orange;
+    font-style: italic;
+}
+
