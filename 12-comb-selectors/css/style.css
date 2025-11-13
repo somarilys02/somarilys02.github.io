@@ -1,0 +1,41 @@
+#navbar {
+    text-align: center;
+    padding: 24px;
+    background-color: beige;
+}
+
+#navbar a {
+    color: purple;
+}
+
+#navbar .warning {
+    color: rgb(151, 131, 16);
+}
+
+p a {
+    color: teal;
+}
+
+p.warning {
+    background-color: azure;
+}
+
+p.warning a {
+    color: black;
+}
+
+ul {
+    color: green;
+}
+
+ul a {
+    color: lime;
+}
+
+ul p a {
+    color: purple;
+}
+
+ul div a {
+    color: lightskyblue;
+}
