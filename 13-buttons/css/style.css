@@ -1,0 +1,40 @@
+.btn {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.simple {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+}
+
+.bg {
+    background-color: green;
+    color: whitesmoke;
+    padding: 10px 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.border {
+    color: orange;
+    border: 3px solid powderblue;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn {
+    font-style: italic;
+}
+
+.wide .btn {
+    display: block;
+    border-color: beige;
+}
