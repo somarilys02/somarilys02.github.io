@@ -1,0 +1,49 @@
+#morning {
+    background-color: pink;
+    border-radius: 10%;
+    padding: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+#afternoon {
+    background-color: beige;
+    border-radius: 10%;
+    padding: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+#evening {
+    background-color: lavenderblush;
+    border-radius: 10%;
+    padding: 20px;
+    text-align: left;
+    font-style: italic;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.importent {
+    font-weight: bold;
+    color: red
+}
+
+.completed.importent {
+    background-color: #a6a6ec;
+}
+
+.button {
+    border: 2px solid blue;
+    margin: 65px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    color: black
+    
+}
