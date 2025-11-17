@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.light-container {
+    background-color: #d6d6b1;
+    padding: 48px 0px;
+}
+
+.dark-container {
+    padding: 48px 0px;
+    background-color: black;
+    color: white;
+}
+
+.single-colum {
+    background-color: blanchedalmond;
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+}
