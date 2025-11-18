@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CZ:wght@100..400&family=Playwrite+NZ+Guides&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.single-column1 {
+    background-color: #fdefde;
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.dark-container {
+    background-color: #fdefde;
+}
+
+.single-column2 {
+    background-color: #d9d9f5;
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.mid-container {
+    background-color: #d9d9f5;
+}
+
+.single-column3 {
+    background-color: #dff5df;
+    width: 50%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.light-container {
+    background-color: #dff5df;
+}
+
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    margin: 0px;
+    padding: 48px 0px;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    padding: 48px 0px;
+}
+
+#b1 {
+    text-decoration: none;
+    color: black;
+    background-color: red;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+#b2 {
+    text-decoration: none;
+    color: white;
+    background-color: #382828;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 10%;
+}
+
+#b3 {
+    text-decoration: none;
+    color: black;
+    background-color: yellow;
+    padding: 10px 0px;
+    margin: 10px;
+    border-radius: 10%;
+}
