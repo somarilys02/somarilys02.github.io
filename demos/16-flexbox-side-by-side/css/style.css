@@ -36,3 +36,31 @@ body {
     gap: 36px;
     flex-wrap: wrap;
 }
+
+.sbs {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.sbs .imgc,
+.sbs .content {
+    flex: 1;
+}
+
+.sbs h2 {
+    font-size: 60px;
+    margin: 0px;
+}
+
+.sbs p {
+    margin-top: 16px;
+    font-size: 20px;
+}
+
+.sbs img {
+    width: 100%;
+    border: 20px outset green;
+    box-shadow: 2px 2px 5px black, inset 2px 2px 5px black;
+    object-fit: cover;
+}
