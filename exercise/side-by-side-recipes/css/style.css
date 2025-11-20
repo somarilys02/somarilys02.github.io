@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.sbs {
+    display: flex;
+    gap: 36px;
+}
+
+.sbs2 {
+    display: flex;
+    gap: 36px;
+}
+
+#b1 {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
