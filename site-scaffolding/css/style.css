@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif
+}
+
+#top-lvl {
+    background: linear-gradient(to bottom, #eb6363, #680909);
+    display: flex;
+    padding: 35px;
+}
+    
+#bottom-lvl {
+    background: linear-gradient(to bottom, #915f04, #e49606da);
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+#bottom-lvl a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+    font-style: italic;
+}
