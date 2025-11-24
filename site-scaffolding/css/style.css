@@ -4,13 +4,17 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif
+    font-family: sans-serif;
 }
 
-#top-lvl {
+.head {
     background: linear-gradient(to bottom, #eb6363, #680909);
     display: flex;
     padding: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    font-style: italic;
 }
     
 #bottom-lvl {
@@ -28,4 +32,18 @@ body {
 h1 {
     color: white;
     font-style: italic;
+    margin: 0px;
+}
+
+#h1t {
+    color: black;
+    font-family: sans-serif;
+}
+
+.btn {
+    font-size: 25px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    font-style: oblique;
 }
