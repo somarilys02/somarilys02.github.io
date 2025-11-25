@@ -26,11 +26,6 @@ img {
     order: 2;
 }
 
-#main {
-    flex: 1;
-    order: 1;
-}
-
 #sidebar h2 {
     background-color: #74634f;
     margin: 0px;
