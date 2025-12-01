@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 15px;
+}
+
+.sbs {
+    display: flex;
+    gap: 36px;
+    flex-wrap: cover;
+}
+
+.sbs3 {
+    display: flex;
+    gap: 215px;
+    text-align: center;
+}
+
+.single-column {
+    width: 30%;
+    max-width: 900px;
+    min-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    text-align: center;
+}
+
+.teams {
+    padding: 0px;
+    margin: 36px 0px;
+    flex: 1;
+    display: flex;
+}
+
+.btns a {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #5f0d0d;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+img {
+    object-fit: cover;
+    align-items: center;
+}
+
+#vs {
+    font-size: 75px;
+    color: #791111;
+}
+
+#th {
+    font-size: 18px;
+}
