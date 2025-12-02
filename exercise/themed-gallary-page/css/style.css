@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.layout {
+    width: 90%;
+    max-width: 900px;
+    margin: 0px auto;
+    background: linear-gradient(to bottom, black, white);
+}
+
+.grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px 100px;
+    border: 5px solid black;
+    padding: 24px;
+    columns: 3 auto;
+    column-gap: 25px;
+}
+
+.grid-gallery img {
+    height: 250px;
+    flex: 1;
+}
