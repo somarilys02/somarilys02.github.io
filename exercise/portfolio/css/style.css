@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+nav {
+    background-color: #041631;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+#hero {
+    background-image: url("../images/garage.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hero .hero-content {
+    background-color: #6e0d0d;
+    backdrop-filter: blur(1px) saturate(300%);
+    mix-blend-mode: lighten;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 75px;
+    margin: 0px;
+    color: white;
+}
+
+.hero-content a {
+    color: white;
+    text-decoration: none;
+    background-color: #060647;
+    padding: 6px;
+}
+
+.layout {
+    max-width: 800px;
+    width: 90%;
+    margin: 48px auto;
+}
+
+.layout h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.single-column {
+    width: 90vw;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+.card-container {
+    display: flex;
+    gap: 36px;
+    flex-wrap: wrap;
+}
+
+.card-container .card-one {
+    background-color: #f7d6e3;
+    padding: 20px 20px;
+    border: 2px solid black;
+}
+
+.card-container .card-two {
+    background-color: #f3edb8;
+    padding: 20px 20px;
+    border: 2px solid black;
+}
+
+.card-container .card-three {
+    background-color: #f7aa86;
+    padding: 20px 20px;
+    border: 2px solid black;
+}
+
+#btn {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
